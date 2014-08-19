@@ -6,7 +6,7 @@ abstract class Config {
 	protected static function reqister_controller($index = false) {
 		 $MTECApp = array(
 							"Controller" => array("mainController"),
-							"Method" 	 => array( "home","menu")
+							"Method" 	 => array( "home","menu","dcodes_menu")
 						 );
         if( $index == false ) {
         	$array = $MTECApp;

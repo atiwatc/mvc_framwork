@@ -24,6 +24,11 @@ class mainController {
 		unset($view); //ทำลาย Object
 	}
 	
+	public function dcodes_menu(){
+		$view = new view();
+		$view->dcodes_menu();
+		unset($view); //ทำลาย Object
+	}
 
 }
 

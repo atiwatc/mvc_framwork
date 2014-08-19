@@ -1,6 +1,6 @@
 <?php
-define( 'YOURLS_WEBSERVER', 'https://pearl.mtec.or.th/MTECApp' );
-define( 'YOURLS_WEBSERVER_SITE', 'https://pearl.mtec.or.th/MTECApp/new_project' );
+define( 'YOURLS_WEBSERVER', 'http://localhost:81/' );
+define( 'YOURLS_WEBSERVER_SITE', 'http://localhost:81/pototype_mvc' );
 
 abstract class Config {
 	protected static function reqister_controller($index = false) {

@@ -1,0 +1,61 @@
+@media (min-width: 700px) { /* กำหนดให้ css นี้ทำงานที่ ความกว้างหน้าจอ 700px ขึ้นไป*/
+	.container {
+		width: 99%;
+	}
+	/*------------------------------------------------สืบค้น---------------------------------------*/
+	.navbar{
+		font-size: 11.5px;
+	}
+	.modal-dialog {
+		width: 45%;
+		height: 20%;
+	}
+	.modal-body {
+		overflow-y: auto;
+		padding-top: 10px;
+		padding-bottom: 0px;
+	}
+	.modal-header {
+		padding: 10px 10px 0px 20px;
+	}
+	#modal-header-print {
+		padding: 20px 20px 20px 20px;
+	}
+	#modal-from {
+		width: 90%;
+		min-width: 800px;
+	}
+	table tr {
+		font-family: Tahoma;
+		font-size: 11.5px;
+	}
+	.btn-xs {
+		font-family: Tahoma;
+		font-size: 10px;
+	}
+	.modal-body table tr td {
+		border-style: dashed;
+		border-color: #33ccFF;
+	}
+	/*-----------------------------------manu------------------------------------------------------------------*/
+	.logo-onestopservice {
+		width: 400px;
+		padding: 0px 1px 2px;
+		border-radius: 12px;
+		font-size: 28px;
+		font-family: Nyala, IrisUPC, Loma;
+		background-color: #FFFC17;
+		color: #FFFFFF;
+		border: solid 1px #FBB917;
+		background: #FF8C00;
+		background: -webkit-gradient(linear, left top, left bottom, from(#FBB917), to(#FF8C00));
+		background: -moz-linear-gradient(top,  #FBB917,  #FF8C00);
+		filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#FFA500', endColorstr='#FF8C00');
+		position: relative;
+		top: 5px;
+	}
+	.img-cricle {
+		border: 0px solid #333333;
+		border-radius: 50%;
+	}
+}

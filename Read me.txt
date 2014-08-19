@@ -1,0 +1,6 @@
+MVC Framwork 
+-เขียนในรูปแบบ MVC
+-extension เป็นส่วนที่ใช้ สร้างตัว genarate ต่างๆ เช่น sencha, jqurey
+-Controller คือตัวกลางที่ใช้ในการเรียก View หรือเลือก Model
+-Model คือส่วนจัดการกับ database
+-View คือส่วนแสดงผล

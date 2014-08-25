@@ -5,7 +5,17 @@
 		public function __construct(){
 			$falg = TRUE;
 			$requestUrl = YOURLS_WEBSERVER . $_SERVER['REQUEST_URI'];
-			$url = explode('index.php', $requestUrl);
+			//echo "<br/><br/>".YOURLS_WEBSERVER;
+			//echo "<br/><br/>".$_SERVER['REQUEST_URI'];
+			//$url = explode('index.php', $requestUrl);
+			if(strstr($requestUrl," index.php"))
+			{
+				$url = explode('index.php', $requestUrl);
+			}else{
+				$url = explode(YOURLS_SITE, $requestUrl);
+				//echo "<br/><br/>host".YOURLS_SITE;
+			}
+			
 			
 			$controllerName = $url[1];
 			$url1 = explode('/', $controllerName);

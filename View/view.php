@@ -53,8 +53,8 @@
 			echo '
 				<!-- DC Dock Menu CSS -->
 				<link type="text/css" rel="stylesheet" href="dcodes/menus/dock/css/dc_dock_menu.css" />
-				<!-- jQuery Library (skip this step if already called on page ) -->
-				<script type="text/javascript" src="'.YOURLS_WEBSERVER.'/library/dcodes/jquery.min.js"></script> <!-- (do not call twice) -->
+				<!-- jQuery Library (skip this step if already called on page )
+				<script type="text/javascript" src="'.YOURLS_WEBSERVER.'/library/dcodes/jquery.min.js"></script> --> <!-- (do not call twice) -->
 				<!-- DC Dock Menu JS -->
 				<script type="text/javascript" src="'.YOURLS_WEBSERVER.'/library/dcodes/menus/dock/js/fisheye-iutil.min.js"></script>
 				<script type="text/javascript" src="'.YOURLS_WEBSERVER.'/library/dcodes/menus/dock/js/dc_dock_menu.js"></script>';
@@ -84,6 +84,22 @@
 			$this->dcodes();
 			echo "<div class='container'>";
 			include 'dcodes_menu.php';
+			echo "</div>";
+		}
+
+		public function about($value='')//แสดงหน้าแรก
+		{
+			$this->jquery();
+			//$this->sencha();
+			$this->Bootstrap();
+			
+			$this->menu('about');
+			echo "<br /><br />";
+			$this->dcodes_menu();
+			echo "<div class='container'>";
+			echo 'ทดสอบ httpc';
+			echo Jquery\Jquery::datepickerJquery("datetime_picker");
+			
 			echo "</div>";
 		}
 		

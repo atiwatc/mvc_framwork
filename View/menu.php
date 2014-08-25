@@ -17,11 +17,16 @@
 		<div class="navbar-collapse collapse">
 			<ul class="nav navbar-nav">
 				<li class="" id="home">
-					<a href="<?php echo YOURLS_WEBSERVER_SITE."/index.php/mainController/home";?>" )" >
+					<a href="<?php echo YOURLS_WEBSERVER_SITE."/mainController/home";?>" )" >
 						<span class="glyphicon glyphicon-home"></span>  หน้าหลัก
 					</a>
 				</li>
-				
+				<li class="" id="about">
+					<a href="<?php echo YOURLS_WEBSERVER_SITE."/mainController/about";?>" )" >
+						<span class="glyphicon glyphicon-home"></span>  เกี่ยวกับเรา
+					</a>
+				</li>
+			</ul>
 		</div>
 	</div>
 	
